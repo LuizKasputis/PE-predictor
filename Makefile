@@ -27,7 +27,8 @@ requirements: test_environment
 
 ## Make Dataset
 data: requirements
-	$(PYTHON_INTERPRETER) src/data/make_dataset.py data/raw data/processed
+	kaggle datasets download -d andrewmvd/pulmonary-embolism-in-ct-images -p ./data/raw
+	$(PYTHON_INTERPRETER) src/data/make_dataset.py
 
 ## Delete all compiled Python files
 clean:
