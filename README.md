@@ -28,7 +28,7 @@ Os resultados apresentados até 05/06/2021 foram 5 horas de treinamento utilizad
 | ------------------- | ------------------- |
 |  71,89% |  72,22% |
 
-Foram testado 10 epochs que podem ser conferidos no notebook 0.3
+Foram utilizados 10 epochs que podem ser conferidos no notebook 0.3
 
 Usage
 ==============================
